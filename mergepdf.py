@@ -4,10 +4,10 @@ import PyPDF2
 pdf_merger = PyPDF2.PdfMerger()
 
 # Add the first PDF file to the merger
-pdf_merger.append("/Users/simpungaelias/Desktop/Radiation Tech.pdf")
+pdf_merger.append("1.pdf")
 
 # Add the second PDF file to the merger
-pdf_merger.append("/Users/simpungaelias/Desktop/Radiation Technologies.pdf")
+pdf_merger.append("2.pdf")
 
 # Output merged PDF to a new file
 pdf_merger.write("merged.pdf")
